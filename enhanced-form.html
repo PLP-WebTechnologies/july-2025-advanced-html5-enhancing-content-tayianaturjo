@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>HTML5 Content & Form Demonstration</h1>
+        <p>Enhancing content with lists, tables, media, and user-friendly forms</p>
+    </header>
+
+    <main>
+        <!-- Section: Lists -->
+        <section>
+            <h2>Popular Web Development Technologies</h2>
+            <p>Here are some tools and technologies commonly used in web development:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+            </ul>
+            <p>Steps to build a basic web page:</p>
+            <ol>
+                <li>Plan your layout</li>
+                <li>Write HTML structure</li>
+                <li>Style with CSS</li>
+                <li>Add interactivity with JavaScript</li>
+            </ol>
+        </section>
+
+        <!-- Section: Table -->
+        <section>
+            <h2>Sample Project Timeline</h2>
+            <table border="1" cellpadding="5">
+                <thead>
+                    <tr>
+                        <th>Phase</th>
+                        <th>Task</th>
+                        <th>Duration</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Requirements Gathering</td>
+                        <td>1 week</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Design</td>
+                        <td>2 weeks</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Development</td>
+                        <td>4 weeks</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Testing & Deployment</td>
+                        <td>2 weeks</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Section: Media -->
+        <section>
+            <h2>Media Showcase</h2>
+            <p>Here’s an image, audio, and video example using HTML5 semantic tags:</p>
+            <figure >
+                <img src="c:\Users\user\OneDrive\Pictures\Screenshot (10)_edited.jpg" alt="Sample Image" width="200px" height="200px">
+                <figcaption>Figure 1: Placeholder image example</figcaption>
+            </figure>
+            <audio controls>
+                <source src="c:\Users\user\Videos\ALOTU_ILO_SHANI_AUDIO_-JACOB_SAPUKI(0).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br><br>
+            <video width="320" height="240" controls>
+                <source src="c:\Users\user\Videos\Angela_Chibalonza_-_Kaa_Nami__Official_Video_(360p).mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <!-- Section: HTML5 Form -->
+        <section>
+            <h2>Contact & Feedback Form</h2>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required autocomplete="name">
+
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required autocomplete="email">
+
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="e.g. +254712345678" pattern="^\+?\d{10,15}$" required>
+
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">--Select Gender--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Account Setup</legend>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Choose a username" minlength="4" required>
+
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Enter password" minlength="6" required>
+
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter password" minlength="6" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Feedback</legend>
+                    <label for="rating">Rate our service (1 to 5):</label>
+                    <input type="number" id="rating" name="rating" min="1" max="5" required>
+
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your feedback here..." required></textarea>
+                </fieldset>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 HTML5 Assignment | Designed for Learning</p>
+    </footer>
+
+</body>
+</html>
